@@ -268,7 +268,7 @@ confint.default(m) # CIs assuming normality
 ### odds ratios
 exp(coef(m))
 ### OR and CI
-exp(cbind(OR = coef(m), ci))![Nyan](https://user-images.githubusercontent.com/74787316/204033680-375513e3-2dac-4dfb-bac1-904d54fffc44.jpeg)
+exp(cbind(OR = coef(m), ci))
 
 
 ## Visualization 
@@ -293,7 +293,6 @@ dat1 %>%
   ggtitle("Distribution of osmolarity by age among air men ") +
   xlab("Osmolarity") 
   
-  
-  ![Uploading Nyan.jpeg…]()
+  ![Nyan](https://user-images.githubusercontent.com/74787316/204033680-375513e3-2dac-4dfb-bac1-904d54fffc44.jpeg)
 
 # End 
