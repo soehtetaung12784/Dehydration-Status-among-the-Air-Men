@@ -299,5 +299,5 @@ dat1 %>%
   
 
 
-# End ![Uploading nayn 2.jpeg…]()
+# End
 
