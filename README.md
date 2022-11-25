@@ -291,7 +291,6 @@ dat1 %>%
     plot.title = element_text(size=11)  ) +
   ggtitle("Distribution of osmolarity by age among air men ") +
   xlab("Osmolarity") 
-  ![alt text](https://drive.google.com/file/d/1Z4M8pIhqCL6DN-qNO9Cy8mOmk15j3dbm/view?usp=share_link)
-  ![alt text](![alt text](https://drive.google.com/file/d/1Z4M8pIhqCL6DN-qNO9Cy8mOmk15j3dbm/view?usp=share_link))
-
+  ![My Remote Image](https://drive.google.com/file/d/1-ehkkNaEr21lEispC-ZaSIFro3BVruDS/view?usp=share_link)
+  ![My Remote Image](https://drive.google.com/file/d/1wh4qdySUKUhaPkYu7lOBopsx6q1tyL1u/view?usp=share_link)
 # End 
