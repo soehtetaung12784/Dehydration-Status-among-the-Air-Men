@@ -1,8 +1,3 @@
-# Dehydration-Status-among-the-Air-Men
-Hydration status, body composition, and urine biomakers in aeronautical military personnel in Myanmar
-
-
-
 # Dehydration Status among the Air Men in Myanmar
 
 An adequate hydration status is critical to ensure efficiency during mental and physical activities. Our goal was to assess the hydration status of aeronautical military men and to determine the association of hydration status with body composition and anxiety. A total of 72 men were evaluated through a validated hydration questionnaire, anthropometric and
@@ -77,9 +72,7 @@ library(dplyr)
 airforce <- airforce %>% mutate(osmolarity = case_when(
   osmo < 500 ~ "Normal",
   osmo >= 500 & osmo <= 799 ~ "Mild",
-  osmo >= 800 ~ "Hypohydration"
-  
-))
+  osmo >= 800 ~ "Hypohydration"))
                     
 view(airforce)
 
