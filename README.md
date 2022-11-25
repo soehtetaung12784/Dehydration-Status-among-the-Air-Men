@@ -294,5 +294,8 @@ dat1 %>%
   xlab("Osmolarity") 
   
   ![Nyan](https://user-images.githubusercontent.com/74787316/204033680-375513e3-2dac-4dfb-bac1-904d54fffc44.jpeg)
+  
+  ![plot_zoom_png1](https://user-images.githubusercontent.com/74787316/204033893-9c81de90-1639-4119-bcea-7a7a9f91f8b4.png)
+
 
 # End 
