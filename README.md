@@ -112,7 +112,7 @@ airforce %>% group_by(osmolarity) %>%
   get_summary_stats(pbf,  type = "common")
 
 
-## Anova Test (One Way) 
+### Anova Test (One Way) 
 
 ### Equality of variances - homogeneity ##
 
@@ -131,7 +131,7 @@ library(car)
 leveneTest(age ~ osmolarity,
            data = airforce) # P > 0.05 means variances are equal
 
-## Normality Check 
+### Normality Check 
 
 res_aov <- aov(pdf ~ osmolarity, 
                data = airforce)
@@ -148,13 +148,13 @@ qqPlot(res_aov$residuals,
 shapiro.test(res_aov$residuals) # normality: P-value of the Shapiro-Wilk test on the residuals > 0.05
 
 
-## One way test 
+### One way test 
 oneway.test(protein ~ osmolarity,
             data = airforce,
             var.equal = TRUE) # assuming equal variances
 
 
-# Correlation  
+## Correlation  
 
 ### data extraction
 cor <- airforce %>% select(tbw, icw, ecw, osmolarity, osmo, sg, ph, a_score, group)
@@ -176,7 +176,7 @@ cor(dat$tbw, dat$osmo,
 round(cor(dat),
       digits = 2 # rounded to 2 decimals)
 
-## Visualization
+### Visualization
 ### scatterplot
 library(ggplot2)
 
